@@ -1,3 +1,101 @@
+# ================================
+# PyTorch Forecasting / Lightning
+# ================================
+
+# Lightning LR finder artifacts
+.lr_find*
+lr_find*
+*.lr_find*
+
+# Lightning / Forecasting logs
+lightning_logs/
+pytorch_forecasting_logs/
+
+# Checkpoints & model artifacts
+checkpoints/
+*.ckpt
+models/
+*.pt
+*.pth
+*.onnx
+
+# ================================
+# TensorBoard / Experiment Logs
+# ================================
+runs/
+tensorboard/
+
+# ================================
+# Weights & Biases (future-proof)
+# ================================
+wandb/
+
+# ================================
+# yfinance / HTTP cache
+# ================================
+.yfinance/
+.cache/yfinance/
+.cache/requests/
+
+# ================================
+# Jupyter runtime noise
+# ================================
+.jupyter/
+.ipynb_checkpoints/
+
+# ================================
+# macOS
+# ================================
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# PyTorch Lightning & Forecasting Logs
+lightning_logs/
+checkpoints/
+*.ckpt
+
+# Data
+data/
+*.csv
+*.parquet
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
